@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0056b3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .active{
+    background-color: #fff;
+    display: flex; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;;
+    width: 500px;
+  }
+
+  
+  .division {
+    flex: 1; /* Equal width for both parts */
+    padding: 20px;
+    border: 1px solid black;
+}
+  .c10{
+    background-color: #fff;
+    flex: 60;
+   
+  }
+  .c11{
+    background-color: #e40f0f0f;
+   
+    flex: 40;
+  }
